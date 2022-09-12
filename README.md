@@ -4,7 +4,7 @@ CMPG 223 Group project by M.Nxumalo, 35383615
  
 ## 1	SQL DATABASE
 
-Database Initiation
+### Database Initiation
 The Student Home Accommodation System includes a database system that is necessary for storing of all the students’ information, agents’ information, and payment transactions, accommodation offered as well as all Maintenance and repairs logs of the accommodations. The database is required to also produce reports. 
 Business Rules:
 •	Each Client (Student) is assigned to one accommodation space at a time.
@@ -16,7 +16,8 @@ Business Rules:
 •	Each Client signs a lease agreement
 •	Each Accommodation has specifications – descriptions. 
 The SQL Database will be created on SQL Server and connected to Visual Studio for data manipulation. The database will have no authentication and it will be hosted locally.
-Tables in the database
+
+### Tables in the database
 The Database consists of 7 main tables namely:
 •	Clients table
 •	Agent table
@@ -28,8 +29,8 @@ The Database consists of 7 main tables namely:
 Due to the system requiring registration and logging in 2 additional tables are to be added;
 •	Register table
 •	Login table
-The tables contain primary identifiers and attributes as indicated in the schema below.
-Queries in the database
+
+### Queries in the database
 Each Table in the database will contain certain queries; 
 1.	Client table: SELECT, INSERT, DELETE, UPDATE.
 2.	Agent table: SELECT, INSERT, DELETE, UPDATE.
@@ -65,22 +66,22 @@ Detailed Time spent to reach Milestones and Deadlines:
 •	Memory Space: 512 MB of RAM, 2 GB of RAM recommended for best performance (1 GB minimum if running on a virtual machine).
 •	HDD/ SSD Space: a minimum of 256 MB disk storage is required for the system, to improve performance, install windows on a solid-state drive (SSD).
 
-## STEPS TO FOLLOW
-4.1.1	Register an Account
+### STEPS TO FOLLOW
+#### 4.1.1	Register an Account
 •	In order to gain access to the web-based system, the user would have to register: essentially create a profile that serves as unique authentication for each user that has access to the system.
 •	The profile consists of: 
 -	Username: Consisting of Lowercase letters (Minimum of 4 Characters), 2 Numerals 
 -	User ID: A unique identifier consisting of numbers only (Since this system is designed for students, a student number will be used)
 -	Password: The user has to generate a unique authentication key consisting of a minimum of 8 characters. The password has to have uppercase letters, lowercase letters and numbers. 
 
-4.1.2	Login to the system
+#### 4.1.2	Login to the system
 •	After successfully Registering an Account, the user has to login to the system. The Login step is essential for the verification of the user’s credentials( to check if the user has a registered and validated profile for the system). 
 •	Logging in to the system requires a valid Username and Password.
 4.1.3	Accommodation viewing and selection
 •	After the user has been granted access to the System (Through Logging in), the following GUI will be where the user gets to view all available accommodations together with their specifications, pricing and relevant contact information should there  be more inquiries to be made.
 •	The User can Click on their desired accommodation should they be further interested, they will be prompted to choose the room type, payment plan and additional services provided ( such as for instance, Wifi, parking etc). After, there is a button available which will then take them to the next GUI: Payments and Lease Agreement.
 
-4.1.4	Payment & Lease Agreement signing
+#### 4.1.4	Payment & Lease Agreement signing
 •	The Payments & Lease Agreement interface provides a platform where the user can enter their banking credentials, amount the user wants to pay (the full cost will be indicated and otustanding cost will be calculated and provided in the reports)
 •	After payment has been made the user will be assigned to an agent and they can then acquire the lease agreement (a basic editable document will be provided for the purpose of the project demonstration), download it and upload it back with all required information filled in. 
 4.1.5	Confirmation & Further details
@@ -90,9 +91,9 @@ Detailed Time spent to reach Milestones and Deadlines:
 ## 6	REPORTS
 
 Internal reports to be generated are as follows:
-1.	Summary reports:   
+### 1.	Summary reports:   
 -	Count of Acquired (Lease Agreement Signees) Clients 
 -	Available Accommodations 
-2.	Exceptional report
+### 2.	Exceptional report
 -	List of Clients with Outstanding accounts 
-3.	Transactions report 
+### 3.	Transactions report 
