@@ -42,7 +42,17 @@ Each Table in the database will contain certain queries;
 8.	Login table: SELECT.
 9.	Register: INSERT.
 
+## 2 Physical Data Diagrams
+
+### 2.1 Physical Data Model
+
+![ERD](https://user-images.githubusercontent.com/105317670/189562170-d2eeef59-248d-4781-a69c-21c71a0a0fd8.png)
+
+### 2.2 Physical Process Model
   
+![process model](https://user-images.githubusercontent.com/105317670/189562280-3442885f-0cf9-4651-8e96-7606cc6482fc.png)
+ 
+  
 ## 3	DETAILED DIARY
 
 The entire Project was designed and documented solely by M. Nxumalo (35383615), with a total of 37 split days spent (with an estimate of 2 Hours spent each day – equating to 74 Hours spent on the project).
@@ -56,7 +66,8 @@ Detailed Time spent to reach Milestones and Deadlines:
 -	Milestone 4: the System design phase started on the 30th of August up until the 12th of September. This includes documentation and creating reports. 
 -	Deadline 2: Final Documentation Submission on the 12th of September.
 
- 
+ ![chart](https://user-images.githubusercontent.com/105317670/189562914-b6024d9f-94cf-4f65-a013-17e4a1834564.png)
+
 
 
 ## SYSTEM REQUIREMENTS
@@ -76,7 +87,7 @@ Detailed Time spent to reach Milestones and Deadlines:
 #### 4.1.2	Login to the system
 - After successfully Registering an Account, the user has to login to the system. The Login step is essential for the verification of the user’s credentials( to check if the user has a registered and validated profile for the system). 
 - Logging in to the system requires a valid Username and Password.
-- 
+
 ### 4.1.3	Accommodation viewing and selection
 -	After the user has been granted access to the System (Through Logging in), the following GUI will be where the user gets to view all available accommodations together with their specifications, pricing and relevant contact information should there  be more inquiries to be made.
 - The User can Click on their desired accommodation should they be further interested, they will be prompted to choose the room type, payment plan and additional services provided ( such as for instance, Wifi, parking etc). After, there is a button available which will then take them to the next GUI: Payments and Lease Agreement.
