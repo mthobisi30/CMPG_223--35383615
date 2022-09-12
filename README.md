@@ -61,31 +61,32 @@ Detailed Time spent to reach Milestones and Deadlines:
 
 ## SYSTEM REQUIREMENTS
 
-•	Supported Operating Systems: Can be accessed from Windows XP, 7, 8, 9, & 10, Intel – based Macs running OS X Tiger or higher and can also be accessed form iPads running iPadOS 13.0 or higher.
-•	Processor Speed: 1.8 GHz or faster processor is recommended.
-•	Memory Space: 512 MB of RAM, 2 GB of RAM recommended for best performance (1 GB minimum if running on a virtual machine).
-•	HDD/ SSD Space: a minimum of 256 MB disk storage is required for the system, to improve performance, install windows on a solid-state drive (SSD).
+- Supported Operating Systems: Can be accessed from Windows XP, 7, 8, 9, & 10, Intel – based Macs running OS X Tiger or higher and can also be accessed form iPads running iPadOS 13.0 or higher.
+- Processor Speed: 1.8 GHz or faster processor is recommended.
+- Memory Space: 512 MB of RAM, 2 GB of RAM recommended for best performance (1 GB minimum if running on a virtual machine).
+- HDD/ SSD Space: a minimum of 256 MB disk storage is required for the system, to improve performance, install windows on a solid-state drive (SSD).
 
 ### STEPS TO FOLLOW
 #### 4.1.1	Register an Account
-•	In order to gain access to the web-based system, the user would have to register: essentially create a profile that serves as unique authentication for each user that has access to the system.
-•	The profile consists of: 
+- The profile consists of: 
 -	Username: Consisting of Lowercase letters (Minimum of 4 Characters), 2 Numerals 
 -	User ID: A unique identifier consisting of numbers only (Since this system is designed for students, a student number will be used)
 -	Password: The user has to generate a unique authentication key consisting of a minimum of 8 characters. The password has to have uppercase letters, lowercase letters and numbers. 
 
 #### 4.1.2	Login to the system
-•	After successfully Registering an Account, the user has to login to the system. The Login step is essential for the verification of the user’s credentials( to check if the user has a registered and validated profile for the system). 
-•	Logging in to the system requires a valid Username and Password.
-4.1.3	Accommodation viewing and selection
-•	After the user has been granted access to the System (Through Logging in), the following GUI will be where the user gets to view all available accommodations together with their specifications, pricing and relevant contact information should there  be more inquiries to be made.
-•	The User can Click on their desired accommodation should they be further interested, they will be prompted to choose the room type, payment plan and additional services provided ( such as for instance, Wifi, parking etc). After, there is a button available which will then take them to the next GUI: Payments and Lease Agreement.
+- After successfully Registering an Account, the user has to login to the system. The Login step is essential for the verification of the user’s credentials( to check if the user has a registered and validated profile for the system). 
+- Logging in to the system requires a valid Username and Password.
+- 
+### 4.1.3	Accommodation viewing and selection
+-	After the user has been granted access to the System (Through Logging in), the following GUI will be where the user gets to view all available accommodations together with their specifications, pricing and relevant contact information should there  be more inquiries to be made.
+- The User can Click on their desired accommodation should they be further interested, they will be prompted to choose the room type, payment plan and additional services provided ( such as for instance, Wifi, parking etc). After, there is a button available which will then take them to the next GUI: Payments and Lease Agreement.
 
 #### 4.1.4	Payment & Lease Agreement signing
-•	The Payments & Lease Agreement interface provides a platform where the user can enter their banking credentials, amount the user wants to pay (the full cost will be indicated and otustanding cost will be calculated and provided in the reports)
-•	After payment has been made the user will be assigned to an agent and they can then acquire the lease agreement (a basic editable document will be provided for the purpose of the project demonstration), download it and upload it back with all required information filled in. 
-4.1.5	Confirmation & Further details
-•	This interface serves as an informative report on the order confirmation. This interface provides information such as the accommodation details(addess to be more precise), room number, relevant dates ( moving in and out dates), proof of payment, agent details as well as information on how to get the keys or fingerprint acess registration process. 
+- The Payments & Lease Agreement interface provides a platform where the user can enter their banking credentials, amount the user wants to pay (the full cost will be indicated and otustanding cost will be calculated and provided in the reports)
+- After payment has been made the user will be assigned to an agent and they can then acquire the lease agreement (a basic editable document will be provided for the purpose of the project demonstration), download it and upload it back with all required information filled in. 
+
+### 4.1.5	Confirmation & Further details
+- This interface serves as an informative report on the order confirmation. This interface provides information such as the accommodation details(addess to be more precise), room number, relevant dates ( moving in and out dates), proof of payment, agent details as well as information on how to get the keys or fingerprint acess registration process. 
 
 
 ## 6	REPORTS
