@@ -1,6 +1,22 @@
 # CMPG_223--35383615
 ## Student Home Accommodation System
 CMPG 223 Group project by M.Nxumalo, 35383615
+
+## Scope Definition
+The aim of the system to be designed is to secure, maintain and control accommodation reservations for tertiary students for the period of their studies. Students are able to choose and secure accommodation of their choice prior to their arrival. the FAST methodology system will be used as a formal approach to establish and execute the framework, with many phases to be used. The functioning of system will include processes and records of: Each accommodation available has to be included with its’ various specifications, the system will also include accommodation maintenance logging. Each student with an account to the system has to be recorded, prospective student must register first, all students’ credentials must be recorded. Each available accommodation is assigned to Real Estate Agents which have control over student’s profiles. All agents’ credentials are to be recorded. Students or rather clients can make payments on the system, all payments made will be recorded. Clients can sign lease agreements on the system as well, which is to be approved by the relevant agent. In addition, the system must meet the non-functional specifications mentioned below:
+- Approximately 50000 of the students' data will be stored in the databases.
+- The time allocated to finalize the placement of the student should not take longer than 24hrs.
+- Cloud server should refresh as soon as the student has been placed to keep the record safe.
+- The system will be used by 3 types of users. Namely, the system owner should have access to all the data stored in the system, the system builders to ensure that there are not any irregulars in the system, & finally the clients to make use of the system offered and should have limited access to the data.
+
+## Use Case Diagram
+
+[Group42_UseCase.pdf](https://github.com/mthobisi30/CMPG_223--35383615/files/9544462/Group42_UseCase.pdf)
+
+## Class Diagram
+
+[Group42_ClassDiagram.pdf](https://github.com/mthobisi30/CMPG_223--35383615/files/9544474/Group42_ClassDiagram.pdf)
+
  
 ## 1	SQL DATABASE
 
