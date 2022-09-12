@@ -46,7 +46,8 @@ Each Table in the database will contain certain queries;
 
 ### 2.1 Physical Data Model
 
-![ERD](https://user-images.githubusercontent.com/105317670/189562170-d2eeef59-248d-4781-a69c-21c71a0a0fd8.png)
+[ERD.drawio.pdf](https://github.com/mthobisi30/CMPG_223--35383615/files/9544174/ERD.drawio.pdf)
+
 
 ### 2.2 Physical Process Model
   
