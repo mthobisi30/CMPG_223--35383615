@@ -108,14 +108,15 @@
             <tr>
                 <td class="auto-style8">Download Lease:</td>
                 <td class="auto-style11">
-                    <asp:Button ID="btnDownload" runat="server" Text="Download" Width="104px" />
+                    <asp:Button ID="btnDownload" runat="server" Text="Download" Width="104px" OnClick="btnDownload_Click" />
                 </td>
                 <td class="auto-style9"></td>
             </tr>
             <tr>
                 <td class="auto-style6">Upload Signed Lease:</td>
                 <td class="auto-style12">
-                    <asp:Button ID="btnUpload" runat="server" Text="Upload" Width="107px" />
+                    <asp:Button ID="btnUpload" runat="server" Text="Upload" Width="107px" OnClick="btnUpload_Click" />
+                    
                 </td>
                 <td class="auto-style4">
                     <asp:FileUpload ID="flLeaseUpload" runat="server" />
@@ -125,10 +126,10 @@
         <table style="width:100%;">
             <tr>
                 <td>
-                    <asp:Button ID="btnBack" runat="server" Text="Back" />
+                    <asp:Button ID="btnBack" runat="server" Text="Back" OnClick="btnBack_Click" />
                 </td>
                 <td>
-                    <asp:Button ID="btnDone" runat="server" Text="Done" />
+                    <asp:Button ID="btnDone" runat="server" Text="Done" OnClick="btnDone_Click" />
                 </td>
                 <td>&nbsp;</td>
             </tr>

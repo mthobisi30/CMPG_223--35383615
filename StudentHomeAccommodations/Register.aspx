@@ -109,14 +109,14 @@
                     <td class="auto-style12"></td>
                     <td class="auto-style13"></td>
                     <td class="auto-style14">
-                        <asp:Button ID="btnRegister" runat="server" Text="Register" Width="115px" />
+                        <asp:Button ID="btnRegister" runat="server" Text="Register" Width="115px" OnClick="btnRegister_Click" />
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style11">&nbsp;</td>
                     <td class="auto-style10">&nbsp;</td>
                     <td>
-                        <asp:Button ID="btnLogin" runat="server" Text="Login" Width="118px" />
+                        <asp:Button ID="btnLogin" runat="server" Text="Login" Width="118px" OnClick="btnLogin_Click" />
                     </td>
                 </tr>
                 <tr>

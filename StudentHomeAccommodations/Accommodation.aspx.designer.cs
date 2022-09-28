@@ -33,22 +33,13 @@ namespace StudentHomeAccommodations
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// dsStudentHome control.
+        /// txtDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource dsStudentHome;
-
-        /// <summary>
-        /// pnlDisplay control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlDisplay;
+        protected global::System.Web.UI.WebControls.TextBox txtDisplay;
 
         /// <summary>
         /// btnView control.

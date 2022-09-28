@@ -58,14 +58,14 @@
             <tr>
                 <td class="auto-style3">UserName:</td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="TextBox4" runat="server" Height="20px" Width="292px"></asp:TextBox>
+                    <asp:TextBox ID="txtUserName" runat="server" Height="20px" Width="292px"></asp:TextBox>
                 </td>
                 <td class="auto-style4"></td>
             </tr>
             <tr>
                 <td class="auto-style5">Password:</td>
                 <td class="auto-style6">
-                    <asp:TextBox ID="TextBox5" runat="server" Height="20px" Width="291px"></asp:TextBox>
+                    <asp:TextBox ID="txtPassword" runat="server" Height="20px" Width="291px"></asp:TextBox>
                 </td>
                 <td class="auto-style6"></td>
             </tr>
@@ -79,13 +79,13 @@
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style7">
-                    <asp:Button ID="btnLogin" runat="server" Text="Login" Width="84px" />
+                    <asp:Button ID="btnLogin" runat="server" Text="Login" Width="84px" OnClick="btnLogin_Click" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:Button ID="btnBack" runat="server" Text="Back" Width="87px" />
+                    <asp:Button ID="btnBack" runat="server" Text="Back" Width="87px" OnClick="btnBack_Click" />
                 </td>
                 <td class="auto-style7">&nbsp;</td>
                 <td>&nbsp;</td>

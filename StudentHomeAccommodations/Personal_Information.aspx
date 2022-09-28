@@ -89,21 +89,21 @@
             <tr>
                 <td class="auto-style7">First Name:</td>
                 <td class="auto-style13">
-                    <asp:TextBox ID="TextBox1" runat="server" Width="192px"></asp:TextBox>
+                    <asp:TextBox ID="txtName" runat="server" Width="192px"></asp:TextBox>
                 </td>
                 <td class="auto-style8"></td>
             </tr>
             <tr>
                 <td class="auto-style5">Last Name:</td>
                 <td class="auto-style14">
-                    <asp:TextBox ID="TextBox2" runat="server" Width="190px"></asp:TextBox>
+                    <asp:TextBox ID="txtLname" runat="server" Width="190px"></asp:TextBox>
                 </td>
                 <td class="auto-style6"></td>
             </tr>
             <tr>
                 <td class="auto-style4">cellPhone Number:</td>
                 <td class="auto-style15">
-                    <asp:TextBox ID="TextBox3" runat="server" Width="191px"></asp:TextBox>
+                    <asp:TextBox ID="txtNumber" runat="server" Width="191px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -112,7 +112,7 @@
             <tr>
                 <td class="auto-style12">Email Address:</td>
                 <td class="auto-style18">
-                    <asp:TextBox ID="TextBox4" runat="server" Width="196px"></asp:TextBox>
+                    <asp:TextBox ID="txtEmail" runat="server" Width="196px"></asp:TextBox>
                 </td>
                 <td class="auto-style8"></td>
             </tr>
@@ -120,7 +120,7 @@
                 <td class="auto-style12"></td>
                 <td class="auto-style18">&nbsp;</td>
                 <td class="auto-style8">
-                    <asp:Button ID="btnProceed" runat="server" Text="Save &amp; Proceed" />
+                    <asp:Button ID="btnProceed" runat="server" Text="Save &amp; Proceed" OnClick="btnProceed_Click" />
                 </td>
             </tr>
             <tr>

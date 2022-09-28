@@ -67,10 +67,10 @@
                 </tr>
                 <tr>
                     <td class="auto-style8">
-                        <asp:Panel ID="Panel1" runat="server" Height="181px" Width="359px">
-                        </asp:Panel>
+                        &nbsp;</td>
+                    <td class="auto-style9">
+                        <asp:TextBox ID="txtDetails" runat="server" Height="215px" Width="835px"></asp:TextBox>
                     </td>
-                    <td class="auto-style9">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
             </table>
@@ -81,10 +81,10 @@
                     <asp:Button ID="btnBack" runat="server" CssClass="auto-style10" OnClick="Button1_Click" Text="Back" Width="120px" />
                 </td>
                 <td class="auto-style12">
-                    <asp:Button ID="btnMaintenance" runat="server" CssClass="auto-style10" OnClick="Button1_Click" Text="Go To Maintenance" Width="120px" />
+                    <asp:Button ID="btnMaintenance" runat="server" CssClass="auto-style10" OnClick="btnMaintenance_Click" Text="Go To Maintenance" Width="120px" />
                 </td>
                 <td>
-                    <asp:Button ID="btnClose" runat="server" Text="Close" Width="120px" />
+                    <asp:Button ID="btnClose" runat="server" Text="Close" Width="120px" OnClick="btnClose_Click" />
                 </td>
             </tr>
             <tr>

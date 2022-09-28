@@ -71,20 +71,11 @@
             </tr>
             <tr>
                 <td class="auto-style4">
-                    <asp:GridView ID="GridView1" runat="server" Height="179px" AutoGenerateColumns="False" DataSourceID="dsStudentHome">
-                        <Columns>
-                            <asp:BoundField DataField="accommodationName" HeaderText="accommodationName" SortExpression="accommodationName" />
-                            <asp:BoundField DataField="streetNumber" HeaderText="streetNumber" SortExpression="streetNumber" />
-                            <asp:BoundField DataField="streetName" HeaderText="streetName" SortExpression="streetName" />
-                            <asp:BoundField DataField="City" HeaderText="City" SortExpression="City" />
-                            <asp:BoundField DataField="zipCode" HeaderText="zipCode" SortExpression="zipCode" />
-                        </Columns>
+                    <asp:GridView ID="GridView1" runat="server" AutoGenerateSelectButton="True">
                     </asp:GridView>
-                    <asp:SqlDataSource ID="dsStudentHome" runat="server" ConnectionString="<%$ ConnectionStrings:dbStudentHomeConnectionString %>" SelectCommand="SELECT [accommodationName], [streetNumber], [streetName], [City], [zipCode] FROM [Accommodation]"></asp:SqlDataSource>
                 </td>
                 <td class="auto-style9">
-                    <asp:Panel ID="pnlDisplay" runat="server" Height="209px" Width="350px">
-                    </asp:Panel>
+                    <asp:TextBox ID="txtDisplay" runat="server" Height="172px" Width="237px"></asp:TextBox>
                 </td>
                 <td>
                     <asp:Button ID="btnView" runat="server" Text="View Images" />
@@ -93,10 +84,10 @@
             <tr>
                 <td class="auto-style6"></td>
                 <td class="auto-style10">
-                    <asp:Button ID="btnReset" runat="server" Text="Reset" Width="80px" />
+                    <asp:Button ID="btnReset" runat="server" Text="Reset" Width="80px" OnClick="btnReset_Click" />
                 </td>
                 <td class="auto-style7">
-                    <asp:Button ID="btnProceed" runat="server" Text="Proceed" Width="100px" />
+                    <asp:Button ID="btnProceed" runat="server" Text="Proceed" Width="100px" OnClick="btnProceed_Click" />
                 </td>
             </tr>
         </table>
@@ -108,14 +99,14 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnProceedPayment" runat="server" Text="Proceed to Payments" Width="155px" />
+                    <asp:Button ID="btnProceedPayment" runat="server" Text="Proceed to Payments" Width="155px" OnClick="btnProceedPayment_Click" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnProceedMaintenance" runat="server" Text="Proceed to Maintenance" Width="155px" />
+                    <asp:Button ID="btnProceedMaintenance" runat="server" Text="Proceed to Maintenance" Width="155px" OnClick="btnProceedMaintenance_Click" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>

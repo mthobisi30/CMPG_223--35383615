@@ -93,7 +93,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">
-                    <asp:CheckBoxList ID="chkMaintenanceType" runat="server">
+                    <asp:CheckBoxList ID="chkMaintenanceType" runat="server" OnSelectedIndexChanged="chkMaintenanceType_SelectedIndexChanged">
                         <asp:ListItem>Electrical</asp:ListItem>
                         <asp:ListItem>WIFI &amp; Connectivity</asp:ListItem>
                         <asp:ListItem>Security </asp:ListItem>
@@ -131,7 +131,7 @@
                 </td>
                 <td class="auto-style14">&nbsp;</td>
                 <td>
-                    <asp:Button ID="btnDone" runat="server" Text="Done " />
+                    <asp:Button ID="btnDone" runat="server" Text="Done " OnClick="btnDone_Click" />
                 </td>
             </tr>
         </table>
